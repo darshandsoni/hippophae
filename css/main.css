@@ -421,19 +421,14 @@ table {
   border-collapse: collapse;
 }
 
-td,
-th {
-  padding: 0;
-}
-
 /* LAYOUT STYLES */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
   color: #666;
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  background: #fafafa;
 }
 
 p {
@@ -448,10 +443,8 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  font-family: 'Alegreya Sans', sans-serif;
+  background: #2e7bcf;
   border-bottom: solid 1px #275da1;
 }
 
@@ -480,7 +473,8 @@ header h2 {
 .inner {
   position: relative;
   width: 940px;
-  margin: 0 auto;
+  padding: 40px;
+/*   margin: 0 auto; */
 }
 
 #content-wrapper {
@@ -490,7 +484,8 @@ header h2 {
 
 #main-content {
   float: left;
-  width: 690px;
+  width: 90%;
+  padding-left: 40px;
 }
 
 #main-content img {
@@ -521,7 +516,8 @@ a.button {
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  margin-top: 50px;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 23px;
   line-height: 1.2;
   color: #fff;
@@ -534,7 +530,7 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  background: transparent url(../img/github-button.png) 0 0 no-repeat;
 }
 aside a.button {
   display: block;
@@ -588,7 +584,7 @@ hr {
 }
 
 table {
-  width: 100%;
+  width: 90%;
   border: 1px solid #ebebeb;
 }
 
@@ -614,7 +610,7 @@ form {
 #main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 2.8em;
   font-weight: normal;
   color: #474747;
@@ -622,87 +618,48 @@ form {
   letter-spacing: -1px;
 }
 
-#main-content h1:before {
-  padding-right: 0.3em;
-  margin-left: -0.9em;
-  color: #9ddcff;
-  content: "/";
-}
-
 #main-content h2 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 22px;
   font-weight: bold;
   color: #474747;
   text-indent: 4px;
 }
-#main-content h2:before {
-  padding-right: 0.3em;
-  margin-left: -1.5em;
-  content: "//";
-  color: #9ddcff;
-}
 
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: #474747;
   text-indent: 3px;
 }
 
-#main-content h3:before {
-  padding-right: 0.3em;
-  margin-left: -2em;
-  content: "///";
-  color: #9ddcff;
-}
-
 #main-content h4 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 15px;
   font-weight: bold;
   color: #474747;
   text-indent: 3px;
 }
 
-h4:before {
-  padding-right: 0.3em;
-  margin-left: -2.8em;
-  content: "////";
-  color: #9ddcff;
-}
-
 #main-content h5 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 14px;
   color: #474747;
   text-indent: 3px;
 }
-h5:before {
-  padding-right: 0.3em;
-  margin-left: -3.2em;
-  content: "/////";
-  color: #9ddcff;
-}
 
 #main-content h6 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: .8em;
   color: #474747;
   text-indent: 3px;
-}
-h6:before {
-  padding-right: 0.3em;
-  margin-left: -3.7em;
-  content: "//////";
-  color: #9ddcff;
 }
 
 p {
@@ -879,3 +836,15 @@ footer a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
 
+.preview {
+  text-align: left;
+  font-size: large;
+}
+
+th {
+  font-weight: bold;
+  font-size: large;
+}
+td {
+  padding: 5px;
+}
