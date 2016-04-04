@@ -4,8 +4,10 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <script src="js/hippophae.js"></script>
     <script src="js/queue.js"></script>
     <script src="js/marked.min.js"></script>
@@ -28,11 +30,35 @@
 
     <div id="content-wrapper">
         <section id="main-content">
-          <h1><a id="hippophae" class="anchor" href="#hippophae" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>hippophae queue</h1>
+          <h1>
 
-          <div id="queue">&nbsp;</div>
+<a id="hippophae" class="anchor" href="#hippophae" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>hippophae queue</h1>
+
+<div id="queue">&nbsp;</div>
+
+<!--    <textarea id="text-input" oninput="this.editor.update()"
+              rows="6" cols="60">Type **Markdown** here.</textarea>
+    <div id="preview"> </div>
+    <script>
+      function Editor(input, preview) {
+        this.update = function () {
+          preview.innerHTML = marked(input.value);
+        };
+        input.editor = this;
+        this.update();
+      }
+      var $ = function (id) { return document.getElementById(id); };
+      new Editor($("text-input"), $("preview"));
+  </script>
+
+<div id="test">&nbsp;</div>
+
+<button onclick="testing()">Preview</button>-->
+
         </section>
+
     </div>
-  
+
+
   </body>
 </html>
