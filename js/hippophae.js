@@ -17,7 +17,7 @@ function load_queue() {
   }
   issue_date = date.toDateString();
 
-  table_headers = "<table class="table"><tr><th style='width:130px'>Date</th><th>URL</th><th>Headline</th><th>Comments</th><th>Preview</th><th>Draft</th></tr>";
+  table_headers = "<table><tr><th style='width:130px'>Date</th><th>URL</th><th>Headline</th><th>Comments</th><th>Preview</th><th>Draft</th></tr>";
   // <tr><td>That</td><td>looks</td><td>table-ish</td><td>butwithout</td><td>borders</td></tr>
   close_table = "</table>";
   table_format = ""
