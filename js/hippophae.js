@@ -16,9 +16,9 @@ function load_queue() {
     date.setDate(date.getDate() + 7);
   }
   issue_date = date.toDateString();
-  
-  table_headers = "<table><tr><th style='width:130px'>Date</th><th>URL</th><th>Headline</th><th>Comments</th><th>Preview</th><th>Draft</th></tr>";
-// <tr><td>That</td><td>looks</td><td>table-ish</td><td>butwithout</td><td>borders</td></tr>
+
+  table_headers = "<table class="table"><tr><th style='width:130px'>Date</th><th>URL</th><th>Headline</th><th>Comments</th><th>Preview</th><th>Draft</th></tr>";
+  // <tr><td>That</td><td>looks</td><td>table-ish</td><td>butwithout</td><td>borders</td></tr>
   close_table = "</table>";
   table_format = ""
 
@@ -59,7 +59,7 @@ function update_preview() {
 //   comment = document.getElementById("newcomment").value;
 //   headline = document.getElementById("newheadline").value;
 //   preview = document.getElementById("newpreview");
-// 
+//
 //   preview.innerHTML = marked("## " + headline + "\n\n" + comment + "\n\n" + link);
 // }
 
