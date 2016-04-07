@@ -4,7 +4,8 @@ table {
 }
 
 th {
-  font-weight: 500;
+  font-weight: bold;
+  text-align: center;
 }
 
 td {
@@ -23,7 +24,7 @@ form {
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-
-th {
-  text-align: center;
+.preview {
+  text-align: left;
+  width: 20%;
 }
