@@ -1,5 +1,9 @@
+h1,h2,h3{
+  font-family: Noto Sans, sans-serif;
+  font-weight: 700;
+}
+
 table {
-  width: 90%;
   border: 1px solid #ebebeb;
 }
 
@@ -12,6 +16,7 @@ td {
   font-weight: 300;
   text-align: center;
   border: 1px solid #ebebeb;
+  font-family: Noto Sans, sans-serif;
 }
 
 form {
